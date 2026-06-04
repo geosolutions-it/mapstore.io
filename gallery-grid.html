@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapStore - Gallery (Grid)</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/mapstore.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a href="index.html" class="d-flex align-items-center mapstore-logo">
+                <img src="assets/mapstore.png" alt="Logo" class="me-2" style="height: 112px;">
+                <span class="fs-3 fw-bold text-primary"><span style="color: var(--mapstore-blue);font-size: 52px;">Map</span><span style="color: var(--mapstore-green);font-size: 52px;">Store</span></span>
+            </a>
+
+            <div class="navbar-actions d-flex align-items-center gap-3">
+                <a href="https://github.com/geosolutions-it/MapStore2" target="_blank" class="github-link" title="Click to see github repo">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://mapstore.geosolutionsgroup.com/mapstore/#/" class="btn btn-warning fw-semibold px-4">Try the Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>MapStore in Production</h1>
+            <p>Public MapStore deployments from organizations around the world</p>
+        </div>
+    </section>
+
+    <!-- Gallery (Grid mock) -->
+    <section class="gallery-section">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+                <!-- City of Genova -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/gallery/genova.png" alt="City of Genova"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">City of Genova</h5>
+                            <p class="card-text text-muted mb-3">Italy</p>
+                            <a href="https://mappe.comune.genova.it/MapStore2/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City of Bozen -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/gallery/bozen.png" alt="City of Bozen"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">City of Bozen</h5>
+                            <p class="card-text text-muted mb-3">Italy</p>
+                            <a href="https://sit.comune.bolzano.it/mapstore2/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City of Rome Geoportal -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/gallery/roma.png" alt="City of Rome Geoportal"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">City of Rome Geoportal</h5>
+                            <p class="card-text text-muted mb-3">Italy</p>
+                            <a href="https://geoportale.comune.roma.it/georoma/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Region of Tuscany -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Region of Tuscany, Hydrologic Service"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Region of Tuscany &mdash; Hydrologic Service</h5>
+                            <p class="card-text text-muted mb-3">Italy</p>
+                            <a href="https://webgis.sir.toscana.it/mapstore/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CRAIG -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/gallery/craig.png" alt="CRAIG"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">CRAIG</h5>
+                            <p class="card-text text-muted mb-3">France</p>
+                            <a href="https://ids.craig.fr/mapstore/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Urban Brussels (BruGIS) -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Urban Brussels (BruGIS)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Urban Brussels (BruGIS)</h5>
+                            <p class="card-text text-muted mb-3">Belgium</p>
+                            <a href="https://gis.urban.brussels/brugis/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ruhr Regional Association -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Ruhr Regional Association"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ruhr Regional Association</h5>
+                            <p class="card-text text-muted mb-3">Germany</p>
+                            <a href="https://mapstore.geoportal.ruhr/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Austro Control -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Austro Control"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Austro Control</h5>
+                            <p class="card-text text-muted mb-3">Austria</p>
+                            <a href="https://maps.austrocontrol.at/mapstore/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Transportes Metropolitanos de Lisboa -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Transportes Metropolitanos de Lisboa"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Transportes Metropolitanos de Lisboa</h5>
+                            <p class="card-text text-muted mb-3">Portugal</p>
+                            <a href="https://geoportal.tmlmobilidade.pt/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cleveland Metroparks -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Cleveland Metroparks"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cleveland Metroparks</h5>
+                            <p class="card-text text-muted mb-3">USA</p>
+                            <a href="https://mapstore.cmparks.net/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Whanganui District Council -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Whanganui District Council"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Whanganui District Council</h5>
+                            <p class="card-text text-muted mb-3">New Zealand</p>
+                            <a href="https://data.whanganui.govt.nz/mapstore2-whanganuidc/#/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Moldova National GeoPortal -->
+                <div class="col">
+                    <div class="card gallery-card h-100">
+                        <div class="gallery-thumb"><img src="assets/mapstore.png" alt="Moldova National GeoPortal"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Moldova National GeoPortal</h5>
+                            <p class="card-text text-muted mb-3">Moldova</p>
+                            <a href="http://www.moldova-map.md/" target="_blank" class="btn btn-sm btn-outline-primary">Visit site</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="text-center text-muted mt-4">
+                <small>See the full list of organizations using MapStore in the
+                <a href="https://github.com/geosolutions-it/MapStore2#who-uses-mapstore" target="_blank">project README</a>.</small>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+
+                <!-- Documentation -->
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/" target="_blank">Documentation</a></h5>
+                            <p>Guides for users, developers, and administrators</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Channels -->
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://github.com/geosolutions-it/MapStore2/?tab=readme-ov-file#communication" target="_blank">Channels</a></h5>
+                            <p>Discussion groups for users and developers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Issue Tracker -->
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://github.com/geosolutions-it/MapStore2/issues" target="_blank">Issue Tracker</a></h5>
+                            <p>Bugs, feature requests, and development roadmap</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQs -->
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="faq.html">FAQs</a></h5>
+                            <p>Frequently asked questions about MapStore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery -->
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="gallery-grid.html">Gallery</a></h5>
+                            <p>Public MapStore deployments around the world</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contributing -->
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://github.com/geosolutions-it/MapStore2/wiki/Contributing-to-MapStore" target="_blank">Contributing to MapStore</a></h5>
+                            <p>How to get involved and contribute to the project</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://github.com/geosolutions-it/MapStore2/wiki/MapStore-Release-Calendars" target="_blank">Release Calendar</a></h5>
+                            <p>Stay updated with the latest MapStore releases</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://github.com/geosolutions-it/MapStore2/wiki/Project-Steering-Committee" target="_blank">Project Steering Committee</a></h5>
+                            <p>Learn about the governance and decision-making body of MapStore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="footer-item">
+                        <div class="footer-icon">
+                            <i class="fas fa-scale-balanced"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5><a href="https://github.com/geosolutions-it/MapStore2/blob/master/LICENSE.txt" target="_blank">License</a></h5>
+                            <p>Learn about the licensing terms of MapStore</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <p class="footer-license">
+                            MapStore is released under the
+                            <a href="https://github.com/geosolutions-it/MapStore2/blob/master/LICENSE.txt" target="_blank">Simplified BSD License</a> -
+                            <a href="https://github.com/geosolutions-it/MapStore2/graphs/contributors" target="_blank">Mapstore Contributors</a>.
+                            Designed by
+                            <a href="https://www.geosolutionsgroup.com/" target="_blank">GeoSolutions</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/company/geosolutionsgroup" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/geosolutions_it" target="_blank" title="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

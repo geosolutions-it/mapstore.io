@@ -195,3 +195,210 @@ body {
 a.mapstore-logo {
     text-decoration: none;
 }
+
+.footer-license {
+    margin-bottom: 8px !important;
+}
+
+.footer-license a {
+    color: #b3d9ff;
+    text-decoration: underline;
+}
+
+.footer-license a:hover {
+    color: white;
+}
+
+/* ===== Sub-page header ===== */
+.page-header {
+    background: linear-gradient(135deg, var(--mapstore-blue) 0%, var(--mapstore-green) 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+    margin-bottom: 0;
+}
+
+/* ===== FAQ accordion ===== */
+.faq-section {
+    padding: 60px 0;
+}
+
+.faq-group-title {
+    color: var(--mapstore-blue);
+    font-weight: 700;
+    margin: 30px 0 18px;
+}
+
+.faq-section .faq-group-title:first-of-type {
+    margin-top: 0;
+}
+
+.faq-item {
+    border: 1px solid #e3e6ea;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 18px 50px 18px 20px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    transition: background 0.2s ease;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: '\f078';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--mapstore-blue);
+    font-size: 0.85rem;
+    transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.faq-item summary:hover {
+    background: #f5fafd;
+}
+
+.faq-item .faq-answer {
+    padding: 0 20px 18px;
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.faq-item .faq-answer a {
+    color: var(--mapstore-blue);
+}
+
+/* ===== Gallery ===== */
+.gallery-section {
+    padding: 60px 0;
+}
+
+.gallery-card {
+    border: 1px solid #e3e6ea;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-thumb {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(60, 169, 214, 0.12) 0%, rgba(71, 177, 74, 0.12) 100%);
+    border-bottom: 1px solid #e3e6ea;
+}
+
+.gallery-thumb img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gallery-card .card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+/* ===== Gallery carousel ===== */
+.gallery-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-carousel .gallery-thumb {
+    height: 360px;
+    border: 1px solid #e3e6ea;
+    border-radius: 10px;
+}
+
+.gallery-carousel .gallery-slide-caption {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.gallery-carousel .gallery-slide-caption h5 {
+    font-weight: 600;
+    color: var(--mapstore-blue);
+    margin-bottom: 12px;
+}
+
+.gallery-carousel .carousel-control-prev,
+.gallery-carousel .carousel-control-next {
+    top: 0;
+    bottom: auto;
+    height: 360px;
+    width: 10%;
+}
+
+.gallery-carousel .carousel-control-prev-icon,
+.gallery-carousel .carousel-control-next-icon {
+    background-color: var(--mapstore-blue);
+    border-radius: 50%;
+    padding: 14px;
+    background-size: 50% 50%;
+}
+
+.gallery-carousel .carousel-indicators [data-bs-target] {
+    background-color: var(--mapstore-blue);
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        padding: 40px 0;
+    }
+
+    .gallery-carousel .gallery-thumb {
+        height: 240px;
+    }
+
+    .gallery-carousel .gallery-thumb img {
+        max-height: 140px;
+    }
+
+    .gallery-carousel .carousel-control-prev,
+    .gallery-carousel .carousel-control-next {
+        height: 240px;
+    }
+
+    .footer-links a:first-child {
+        padding-left: 16px;
+    }
+}
