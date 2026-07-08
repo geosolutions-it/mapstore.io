@@ -19,26 +19,28 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
-            <a href="https://www.geosolutionsgroup.com/technologies/mapstore/" target="_blank" class="d-flex align-items-center mapstore-logo">
+            <a href="https://www.geosolutionsgroup.com/technologies/mapstore/" target="_blank"
+                class="d-flex align-items-center mapstore-logo">
                 <img src="assets/mapstore.png" alt="Logo" class="me-2" style="height: 112px;">
-                <span class="fs-3 fw-bold text-primary"><span style="color: var(--mapstore-blue);font-size: 52px;">Map</span><span style="color: var(--mapstore-green);font-size: 52px;">Store</span></span>
+                <span class="fs-3 fw-bold text-primary"><span
+                        style="color: var(--mapstore-blue);font-size: 52px;">Map</span><span
+                        style="color: var(--mapstore-green);font-size: 52px;">Store</span></span>
             </a>
 
             <div class="navbar-actions d-flex align-items-center gap-3">
-                <a
-                    href="https://github.com/geosolutions-it/MapStore2"
-                    target="_blank"
-                    class="github-link"
-                    title="Click to see github repo" >
+                <a href="https://github.com/geosolutions-it/MapStore2" target="_blank" class="github-link"
+                    title="Click to see github repo">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://mapstore.geosolutionsgroup.com/mapstore/#/" class="btn btn-warning fw-semibold px-4">Try the Demo</a>
+                <a href="https://mapstore.geosolutionsgroup.com/mapstore/#/"
+                    class="btn btn-warning fw-semibold px-4">Try the Demo</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section" style="top: 33px;background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);padding: 110px 0;padding-top: 54px;">
+    <section class="hero-section"
+        style="top: 33px;background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);padding-top: 48px;">
         <div class="container">
             <div class="row align-items-center">
 
@@ -49,7 +51,8 @@
                             Open Source WebGIS application
                         </h1>
                         <p class="lead text-muted mb-4 text-center">
-                            MapStore is a comprehensive Open Source WebGIS for managing and sharing web-based maps, dashboards, and stories online.
+                            MapStore is a comprehensive Open Source WebGIS for managing and sharing web-based maps,
+                            dashboards, and stories online.
                         </p>
 
                         <!-- Version Buttons -->
@@ -86,7 +89,85 @@
 
                 <!-- Right Column - Preview -->
                 <div class="col-lg-6 text-center px-4">
-                    <img src="assets/preview.png" alt="Preview" class="img-fluid shadow rounded" style="height: 320px;">
+                    <!-- Carousel -->
+                    <section class="carousel-section">
+                        <div class="container">
+
+                            <div id="galleryCarousel" class="carousel slide gallery-carousel" data-bs-ride="carousel">
+
+                                <div class="carousel-inner">
+
+                                    <!-- Mapstore Demo -->
+                                    <div class="carousel-item active">
+                                        <div class="gallery-thumb"><img src="assets/preview.png" alt="MapStore Demo"
+                                                class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- City of Genova -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/genova.jpg"
+                                                alt="City of Genova" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- City of Bozen -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/bozen.jpg"
+                                                alt="City of Bozen" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- City of Rome Geoportal -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/roma.jpg"
+                                                alt="City of Rome Geoportal" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- Region of Tuscany -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/toscana.jpg"
+                                                alt="Region of Tuscany, Hydrologic Service" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- CRAIG -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/craig.jpg" alt="CRAIG"
+                                                class="shadow">
+                                        </div>
+                                        
+                                    </div>
+
+                                    <!-- Urban Brussels (BruGIS) -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/brugis.jpg"
+                                                alt="Urban Brussels (BruGIS)" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- Ruhr Regional Association -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/ruhr.jpg"
+                                                alt="Ruhr Regional Association" class="shadow"></div>
+                                    </div>
+
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
                 </div>
 
             </div>
@@ -99,56 +180,122 @@
             <div class="row">
 
                 <!-- Documentation -->
-                <div class="col-lg-6 col-xl-4">
-                    <div class="footer-item">
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://docs.mapstore.geosolutionsgroup.com/en/latest/"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="footer-icon">
                             <i class="fas fa-book"></i>
                         </div>
                         <div class="footer-content">
-                            <h5><a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/" target="_blank">Documentation</a></h5>
+                            <h5>Documentation</h5>
                             <p>Guides for users, developers, and administrators</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Channels -->
-                <div class="col-lg-6 col-xl-4">
-                    <div class="footer-item">
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/?tab=readme-ov-file#communication"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="footer-icon">
                             <i class="fas fa-comments"></i>
                         </div>
                         <div class="footer-content">
-                            <h5><a href="https://github.com/geosolutions-it/MapStore2/?tab=readme-ov-file#communication" target="_blank">Channels</a></h5>
+                            <h5>Channels</h5>
                             <p>Discussion groups for users and developers</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
-                <!-- FAQs -->
-                <!-- <div class="col-lg-6 col-xl-4">
-                    <div class="footer-item">
-                        <div class="footer-icon">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div class="footer-content">
-                            <h5><a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/dev-faq/" target="_blank">FAQs</a></h5>
-                            <p>Frequently Asked Questions about MapStore</p>
-                        </div>
-                    </div>
-                </div> -->
-
                 <!-- Issue Tracker -->
-                <div class="col-lg-6 col-xl-4">
-                    <div class="footer-item">
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/issues"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="footer-icon">
                             <i class="fas fa-bug"></i>
                         </div>
                         <div class="footer-content">
-                            <h5><a href="https://github.com/geosolutions-it/MapStore2/issues" target="_blank">Issue Tracker</a>
-                            </h5>
+                            <h5>Issue Tracker</h5>
                             <p>Bugs, feature requests, and development roadmap</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
+
+                <!-- FAQs -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="faq.html">
+                        <div class="footer-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>FAQs</h5>
+                            <p>Frequently asked questions about MapStore</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Gallery -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="gallery.html">
+                        <div class="footer-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Gallery</h5>
+                            <p>Public MapStore deployments around the world</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Contributing -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/wiki/Contributing-to-MapStore"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Contributing to MapStore</h5>
+                            <p>How to get involved and contribute to the project</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/wiki/MapStore-Release-Calendars"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Release Calendar</h5>
+                            <p>Stay updated with the latest MapStore releases</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/wiki/Project-Steering-Committee"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Project Steering Committee</h5>
+                            <p>Learn about the governance and decision-making body of MapStore</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/blob/master/LICENSE.txt"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-scale-balanced"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>License</h5>
+                            <p>Learn about the licensing terms of MapStore</p>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -157,14 +304,19 @@
             <div class="footer-bottom">
                 <div class="row align-items-center">
                     <div class="col-md-8">
-                        <p>
-                            This <a href="#">Website</a> is designed by
+                        <p class="footer-license">
+                            <!-- TODO: ADD LICENSE TO THIS WEBSITE REPO AND LINK IT HERE -->
+                            This Website is licensed CC by SA. -
+                            <a href="https://github.com/geosolutions-it/MapStore2/graphs/contributors?from=1%2F1%2F2015"
+                                target="_blank">Mapstore Contributors</a>.
+                            Designed by
                             <a href="https://www.geosolutionsgroup.com/" target="_blank">GeoSolutions</a>
                         </p>
                     </div>
                     <div class="col-md-4">
                         <div class="social-links">
-                            <a href="https://www.linkedin.com/company/geosolutionsgroup" target="_blank" title="LinkedIn">
+                            <a href="https://www.linkedin.com/company/geosolutionsgroup" target="_blank"
+                                title="LinkedIn">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                             <a href="https://twitter.com/geosolutions_it" target="_blank" title="Twitter">

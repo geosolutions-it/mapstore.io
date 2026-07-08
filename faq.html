@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapStore - Frequently Asked Questions</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/mapstore.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a href="index.html" class="d-flex align-items-center mapstore-logo">
+                <img src="assets/mapstore.png" alt="Logo" class="me-2" style="height: 112px;">
+                <span class="fs-3 fw-bold text-primary"><span style="color: var(--mapstore-blue);font-size: 52px;">Map</span><span style="color: var(--mapstore-green);font-size: 52px;">Store</span></span>
+            </a>
+
+            <div class="navbar-actions d-flex align-items-center gap-3">
+                <a href="https://github.com/geosolutions-it/MapStore2" target="_blank" class="github-link" title="Click to see github repo">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://mapstore.geosolutionsgroup.com/mapstore/#/" class="btn btn-warning fw-semibold px-4">Try the Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p>Common questions about using, administering, and developing with MapStore</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+
+                    <!-- For Users -->
+                    <h3 class="faq-group-title">For Users</h3>
+
+                    <details class="faq-item">
+                        <summary>Where can I find tutorials and documentation?</summary>
+                        <p class="faq-answer">The MapStore documentation includes guides for users, administrators, and developers. A good starting point is the
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/home-page/" target="_blank">User Guide</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I create a map?</summary>
+                        <p class="faq-answer">From the homepage you can create a new map, add and style layers, choose a background, and save it. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-maps/" target="_blank">Exploring Maps</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I add data or connect to remote services (WMS, WFS, WMTS, CSW)?</summary>
+                        <p class="faq-answer">Use the Catalog to connect remote services and add their layers to your map. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/catalog/" target="_blank">Catalog Services</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I find existing maps, dashboards and stories?</summary>
+                        <p class="faq-answer">Browse and search all resources directly from the MapStore homepage using categories and filters. See the
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/home-page/" target="_blank">Home Page</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I share or print a map?</summary>
+                        <p class="faq-answer">Use the Share tool to get a link or embed code, and the Print tool to export a PDF. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/share/" target="_blank">Sharing Resources</a> and
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/print/" target="_blank">Printing a Map</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I build a dashboard or a story?</summary>
+                        <p class="faq-answer">MapStore lets you create interactive dashboards and GeoStories from your data. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-dashboards/" target="_blank">Exploring Dashboards</a> and
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-stories/" target="_blank">Exploring Stories</a>.</p>
+                    </details>
+
+                    <!-- For Administrators -->
+                    <h3 class="faq-group-title">For Administrators</h3>
+
+                    <details class="faq-item">
+                        <summary>How do I install and run MapStore?</summary>
+                        <p class="faq-answer">MapStore can be run as a standalone application (binary or Docker) or built from source. See the
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/quick-start/" target="_blank">Quick Start</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I manage users, groups and permissions?</summary>
+                        <p class="faq-answer">Administrators can create users and groups and define permissions for resources. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/managing-users-and-groups/" target="_blank">Managing Users and Groups</a> and <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/resources-properties/#permission-rules" target="_blank">Resource Properties</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I customize the look and feel of MapStore?</summary>
+                        <p class="faq-answer">You can rebrand MapStore by overriding its theme, logos, and styles. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/customize-theme/" target="_blank">Styling and Theming</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I configure MapStore for production?</summary>
+                        <p class="faq-answer">MapStore configuration is externalized so you can adapt it without rebuilding the application. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/configuration-files/" target="_blank">Configuring MapStore</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I set up authentication and security?</summary>
+                        <p class="faq-answer">MapStore supports back-end security configuration and integration with external authentication providers (such as LDAP, OAuth2 / OpenID, and Keycloak). See the security configuration in
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/configuration-files/" target="_blank">Configuring MapStore</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I configure MapStore in other languages?</summary>
+                        <p class="faq-answer">MapStore is fully localizable, ships with several languages, and lets you add your own translations. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/internationalization/" target="_blank">Internationalization</a>.</p>
+                    </details>
+
+                    <!-- For Developers -->
+                    <h3 class="faq-group-title">For Developers</h3>
+
+                    <details class="faq-item">
+                        <summary>How do I set up a development environment?</summary>
+                        <p class="faq-answer">Clone the repository, install the dependencies, and run the development server to start contributing. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/developing/" target="_blank">Developing with MapStore</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I create a custom MapStore project?</summary>
+                        <p class="faq-answer">MapStore can be used as a framework to build your own downstream application on top of it. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/mapstore-projects/" target="_blank">MapStore Projects</a>.</p>
+                    </details>
+
+                    <p class="text-muted mt-4">
+                        <small>Looking for something else? Browse the full
+                        <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/" target="_blank">MapStore documentation</a>
+                        or ask the community through our
+                        <a href="https://github.com/geosolutions-it/MapStore2/?tab=readme-ov-file#communication" target="_blank">channels</a>.</small>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+
+                <!-- Documentation -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://docs.mapstore.geosolutionsgroup.com/en/latest/" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Documentation</h5>
+                            <p>Guides for users, developers, and administrators</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Channels -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/?tab=readme-ov-file#communication" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Channels</h5>
+                            <p>Discussion groups for users and developers</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Issue Tracker -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/issues" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Issue Tracker</h5>
+                            <p>Bugs, feature requests, and development roadmap</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- FAQs -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="faq.html">
+                        <div class="footer-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>FAQs</h5>
+                            <p>Frequently asked questions about MapStore</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Gallery -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="gallery.html">
+                        <div class="footer-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Gallery</h5>
+                            <p>Public MapStore deployments around the world</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Contributing -->
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/wiki/Contributing-to-MapStore" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Contributing to MapStore</h5>
+                            <p>How to get involved and contribute to the project</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/wiki/MapStore-Release-Calendars" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Release Calendar</h5>
+                            <p>Stay updated with the latest MapStore releases</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/wiki/Project-Steering-Committee" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>Project Steering Committee</h5>
+                            <p>Learn about the governance and decision-making body of MapStore</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <a class="footer-item" href="https://github.com/geosolutions-it/MapStore2/blob/master/LICENSE.txt" target="_blank" rel="noopener noreferrer">
+                        <div class="footer-icon">
+                            <i class="fas fa-scale-balanced"></i>
+                        </div>
+                        <div class="footer-content">
+                            <h5>License</h5>
+                            <p>Learn about the licensing terms of MapStore</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <p class="footer-license">
+                            <!-- TODO: ADD LICENSE TO THIS WEBSITE REPO AND LINK IT HERE -->
+                            This Website is licensed CC by SA. -
+                            <a href="https://github.com/geosolutions-it/MapStore2/graphs/contributors?from=1%2F1%2F2015" target="_blank">Mapstore Contributors</a>.
+                            Designed by
+                            <a href="https://www.geosolutionsgroup.com/" target="_blank">GeoSolutions</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/company/geosolutionsgroup" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/geosolutions_it" target="_blank" title="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
