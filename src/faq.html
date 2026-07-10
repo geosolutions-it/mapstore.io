@@ -1,0 +1,139 @@
+---
+title: MapStore - Frequently Asked Questions
+permalink: faq.html
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "head.html" %}
+
+<body>
+
+    {% include "nav.html" %}
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p>Common questions about using, administering, and developing with MapStore</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+
+                    <!-- For Users -->
+                    <h3 class="faq-group-title">For Users</h3>
+
+                    <details class="faq-item">
+                        <summary>Where can I find tutorials and documentation?</summary>
+                        <p class="faq-answer">The MapStore documentation includes guides for users, administrators, and developers. A good starting point is the
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/home-page/" target="_blank">User Guide</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I create a map?</summary>
+                        <p class="faq-answer">From the homepage you can create a new map, add and style layers, choose a background, and save it. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-maps/" target="_blank">Exploring Maps</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I add data or connect to remote services (WMS, WFS, WMTS, CSW)?</summary>
+                        <p class="faq-answer">Use the Catalog to connect remote services and add their layers to your map. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/catalog/" target="_blank">Catalog Services</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I find existing maps, dashboards and stories?</summary>
+                        <p class="faq-answer">Browse and search all resources directly from the MapStore homepage using categories and filters. See the
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/home-page/" target="_blank">Home Page</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I share or print a map?</summary>
+                        <p class="faq-answer">Use the Share tool to get a link or embed code, and the Print tool to export a PDF. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/share/" target="_blank">Sharing Resources</a> and
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/print/" target="_blank">Printing a Map</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I build a dashboard or a story?</summary>
+                        <p class="faq-answer">MapStore lets you create interactive dashboards and GeoStories from your data. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-dashboards/" target="_blank">Exploring Dashboards</a> and
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-stories/" target="_blank">Exploring Stories</a>.</p>
+                    </details>
+
+                    <!-- For Administrators -->
+                    <h3 class="faq-group-title">For Administrators</h3>
+
+                    <details class="faq-item">
+                        <summary>How do I install and run MapStore?</summary>
+                        <p class="faq-answer">MapStore can be run as a standalone application (binary or Docker) or built from source. See the
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/quick-start/" target="_blank">Quick Start</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I manage users, groups and permissions?</summary>
+                        <p class="faq-answer">Administrators can create users and groups and define permissions for resources. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/managing-users-and-groups/" target="_blank">Managing Users and Groups</a> and <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/resources-properties/#permission-rules" target="_blank">Resource Properties</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I customize the look and feel of MapStore?</summary>
+                        <p class="faq-answer">You can rebrand MapStore by overriding its theme, logos, and styles. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/customize-theme/" target="_blank">Styling and Theming</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I configure MapStore for production?</summary>
+                        <p class="faq-answer">MapStore configuration is externalized so you can adapt it without rebuilding the application. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/configuration-files/" target="_blank">Configuring MapStore</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I set up authentication and security?</summary>
+                        <p class="faq-answer">MapStore supports back-end security configuration and integration with external authentication providers (such as LDAP, OAuth2 / OpenID, and Keycloak). See the security configuration in
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/configuration-files/" target="_blank">Configuring MapStore</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I configure MapStore in other languages?</summary>
+                        <p class="faq-answer">MapStore is fully localizable, ships with several languages, and lets you add your own translations. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/internationalization/" target="_blank">Internationalization</a>.</p>
+                    </details>
+
+                    <!-- For Developers -->
+                    <h3 class="faq-group-title">For Developers</h3>
+
+                    <details class="faq-item">
+                        <summary>How do I set up a development environment?</summary>
+                        <p class="faq-answer">Clone the repository, install the dependencies, and run the development server to start contributing. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/developing/" target="_blank">Developing with MapStore</a>.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I create a custom MapStore project?</summary>
+                        <p class="faq-answer">MapStore can be used as a framework to build your own downstream application on top of it. See
+                            <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/mapstore-projects/" target="_blank">MapStore Projects</a>.</p>
+                    </details>
+
+                    <p class="text-muted mt-4">
+                        <small>Looking for something else? Browse the full
+                        <a href="https://docs.mapstore.geosolutionsgroup.com/en/latest/" target="_blank">MapStore documentation</a>
+                        or ask the community through our
+                        <a href="https://github.com/geosolutions-it/MapStore2/?tab=readme-ov-file#communication" target="_blank">channels</a>.</small>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include "footer.html" %}
+
+</body>
+
+</html>
