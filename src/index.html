@@ -1,0 +1,156 @@
+---
+title: MapStore - Open Source Geospatial Content Management System
+logoHref: https://www.geosolutionsgroup.com/technologies/mapstore/
+logoTarget: _blank
+permalink: index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "head.html" %}
+
+<body>
+
+    {% include "nav.html" %}
+
+    <!-- Hero Section -->
+    <section class="hero-section"
+        style="top: 33px;background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);padding-top: 48px;">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Column - Content -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="text-center text-lg-start">
+                        <h1 class="display-8 fw-bold mb-4 text-center" style="color: var(--mapstore-blue);">
+                            Open Source WebGIS application
+                        </h1>
+                        <p class="lead text-muted mb-4 text-center">
+                            MapStore is a comprehensive Open Source WebGIS for managing and sharing web-based maps,
+                            dashboards, and stories online.
+                        </p>
+
+                        <!-- Version Buttons -->
+                        <div class="row version-columns g-3">
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <a id="latest-release-link" href="" target="_blank" class="version-btn btn-latest">
+                                        Latest version
+                                    </a>
+                                    <div id="latest-release" class="version-text"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <a id="stable-branch-link" href="" target="_blank" class="version-btn btn-stable">
+                                        Stable branch
+                                    </a>
+                                    <div id="stable-branch" class="version-text"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <a id="dev-branch-link" href="" target="_blank" class="version-btn btn-development">
+                                        Development
+                                    </a>
+                                    <div id="dev-branch" class="version-text">master</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Preview -->
+                <div class="col-lg-6 text-center px-4">
+                    <!-- Carousel -->
+                    <section class="carousel-section">
+                        <div class="container">
+
+                            <div id="galleryCarousel" class="carousel slide gallery-carousel" data-bs-ride="carousel">
+
+                                <div class="carousel-inner">
+
+                                    <!-- Mapstore Demo -->
+                                    <div class="carousel-item active">
+                                        <div class="gallery-thumb"><img src="assets/preview.png" alt="MapStore Demo"
+                                                class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- City of Genova -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/genova.jpg"
+                                                alt="City of Genova" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- City of Bozen -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/bozen.jpg"
+                                                alt="City of Bozen" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- City of Rome Geoportal -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/roma.jpg"
+                                                alt="City of Rome Geoportal" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- Region of Tuscany -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/toscana.jpg"
+                                                alt="Region of Tuscany, Hydrologic Service" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- CRAIG -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/craig.jpg" alt="CRAIG"
+                                                class="shadow">
+                                        </div>
+                                        
+                                    </div>
+
+                                    <!-- Urban Brussels (BruGIS) -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/brugis.jpg"
+                                                alt="Urban Brussels (BruGIS)" class="shadow"></div>
+                                        
+                                    </div>
+
+                                    <!-- Ruhr Regional Association -->
+                                    <div class="carousel-item">
+                                        <div class="gallery-thumb"><img src="assets/gallery/ruhr.jpg"
+                                                alt="Ruhr Regional Association" class="shadow"></div>
+                                    </div>
+
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    {% include "footer.html" %}
+
+</body>
+
+</html>
