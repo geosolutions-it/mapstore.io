@@ -455,8 +455,7 @@ a {
     margin: 0;
 }
 
-.gallery-intro a,
-.gallery-source a {
+.gallery-intro a {
     color: #237ea5;
     font-weight: 600;
 }
@@ -588,12 +587,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     white-space: nowrap;
-}
-
-.gallery-source {
-    color: #788289;
-    margin: 2rem 0 0;
-    text-align: center;
 }
 
 /* ===== Gallery carousel ===== */
