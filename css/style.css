@@ -157,6 +157,7 @@ a {
     margin-top: 2rem;
     margin-right: 0;
     margin-left: 0;
+    justify-content: center;
 }
 
 .version-columns > [class*="col-"] {
@@ -188,7 +189,6 @@ a {
 }
 
 .version-card:hover .version-text {
-    color: #f2a900;
     text-decoration: underline;
 }
 
